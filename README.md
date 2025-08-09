@@ -2,7 +2,6 @@
 
 ![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
 ![Node.js](https://img.shields.io/badge/Node.js-%3E=18-green?logo=node.js)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Base ini adalah **Telegram Bot** berbasis **ESM Modular Plugin** seperti bot WhatsApp, tetapi untuk Telegram.  
 Dikembangkan oleh **XENTRA - RAPZZCODE** sebagai kerangka dasar minimalis dengan 1 fitur bawaan (`start.js`) yang menampilkan banner dan daftar fitur aktif.
@@ -26,16 +25,6 @@ Dikembangkan oleh **XENTRA - RAPZZCODE** sebagai kerangka dasar minimalis dengan
 
 ---
 
-## 📂 Struktur Folder
-```
-tels/
-│── commands/
-│   └── start.js        # Banner awal + tombol list fitur
-│── config.js           # Konfigurasi bot
-│── index.js            # Koneksi utama bot (Encrypted)
-│── package.json
-```
-
 ---
 
 ## ⚙️ Konfigurasi
@@ -56,8 +45,8 @@ export default {
 ## ▶️ Cara Menjalankan
 1. Clone repositori:
    ```bash
-   git clone https://github.com/username/repo-bot.git
-   cd repo-bot
+   git clone https://github.com/Rapzzcode/xentra-tele.git
+   cd xentra-tele
    ```
 2. Install dependencies:
    ```bash
@@ -65,7 +54,7 @@ export default {
    ```
 3. Jalankan bot:
    ```bash
-   node index.js
+   npm start / node index.js
    ```
 
 > Gunakan **Node.js v18+**  
@@ -91,29 +80,8 @@ export default handler;
 
 ---
 
-## 📸 Preview
-```
-|—————WELCOME TO BOT RAPZZBOT—————|
-| • BOT SUDAH AKTIF, SILAHKAN GUNAKAN FITUR YANG TERSEDIA
-| • NAMA BOT : RAPZZBOT
-| • ID OWNER : 123456789
-| • NAMA OWNER : Xentra
-| • USERNAME OWNER : @rapzzcode
-| • TELE DEV BASE : rapzzgege.t.me
-| • TAMBAHKAN NAMA DEV KE CREDIT UNTUK MENGHARGAI
-
-| • TOTAL FITUR AKTIF :
-| • 1
-|—————————————————————————————|
-```
-
----
-
 ## 💡 Credits
 - **Developer:** XENTRA - RAPZZCODE  
 - Telegram: [rapzzgege.t.me](https://t.me/rapzzgege)
 
 ---
-
-## 📄 Lisensi
-[MIT License](LICENSE) — Bebas digunakan & dimodifikasi dengan tetap mencantumkan credit developer.
