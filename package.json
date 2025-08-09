@@ -1,0 +1,17 @@
+{
+  "name": "RapzzCode",
+  "version": "1.0.0",
+  "description": "Simpel base by RapzzCode, Base ini menggunakan ESM plugin",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
